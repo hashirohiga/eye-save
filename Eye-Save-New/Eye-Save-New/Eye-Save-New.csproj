@@ -1,0 +1,562 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Eye_Save_New</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\agents\agent_1.png" />
+    <None Remove="Resources\agents\agent_10.png" />
+    <None Remove="Resources\agents\agent_100.png" />
+    <None Remove="Resources\agents\agent_101.png" />
+    <None Remove="Resources\agents\agent_102.png" />
+    <None Remove="Resources\agents\agent_103.png" />
+    <None Remove="Resources\agents\agent_104.png" />
+    <None Remove="Resources\agents\agent_105.png" />
+    <None Remove="Resources\agents\agent_106.png" />
+    <None Remove="Resources\agents\agent_107.png" />
+    <None Remove="Resources\agents\agent_108.png" />
+    <None Remove="Resources\agents\agent_109.png" />
+    <None Remove="Resources\agents\agent_11.png" />
+    <None Remove="Resources\agents\agent_110.png" />
+    <None Remove="Resources\agents\agent_111.png" />
+    <None Remove="Resources\agents\agent_112.png" />
+    <None Remove="Resources\agents\agent_113.png" />
+    <None Remove="Resources\agents\agent_114.png" />
+    <None Remove="Resources\agents\agent_115.png" />
+    <None Remove="Resources\agents\agent_116.png" />
+    <None Remove="Resources\agents\agent_117.png" />
+    <None Remove="Resources\agents\agent_118.png" />
+    <None Remove="Resources\agents\agent_119.png" />
+    <None Remove="Resources\agents\agent_12.png" />
+    <None Remove="Resources\agents\agent_120.png" />
+    <None Remove="Resources\agents\agent_121.png" />
+    <None Remove="Resources\agents\agent_122.png" />
+    <None Remove="Resources\agents\agent_123.png" />
+    <None Remove="Resources\agents\agent_124.png" />
+    <None Remove="Resources\agents\agent_125.png" />
+    <None Remove="Resources\agents\agent_126.png" />
+    <None Remove="Resources\agents\agent_127.png" />
+    <None Remove="Resources\agents\agent_128.png" />
+    <None Remove="Resources\agents\agent_129.png" />
+    <None Remove="Resources\agents\agent_13.png" />
+    <None Remove="Resources\agents\agent_130.png" />
+    <None Remove="Resources\agents\agent_14.png" />
+    <None Remove="Resources\agents\agent_15.png" />
+    <None Remove="Resources\agents\agent_16.png" />
+    <None Remove="Resources\agents\agent_17.png" />
+    <None Remove="Resources\agents\agent_18.png" />
+    <None Remove="Resources\agents\agent_19.png" />
+    <None Remove="Resources\agents\agent_2.png" />
+    <None Remove="Resources\agents\agent_20.png" />
+    <None Remove="Resources\agents\agent_21.png" />
+    <None Remove="Resources\agents\agent_22.png" />
+    <None Remove="Resources\agents\agent_23.png" />
+    <None Remove="Resources\agents\agent_24.png" />
+    <None Remove="Resources\agents\agent_25.png" />
+    <None Remove="Resources\agents\agent_26.png" />
+    <None Remove="Resources\agents\agent_27.png" />
+    <None Remove="Resources\agents\agent_28.png" />
+    <None Remove="Resources\agents\agent_29.png" />
+    <None Remove="Resources\agents\agent_3.png" />
+    <None Remove="Resources\agents\agent_30.png" />
+    <None Remove="Resources\agents\agent_31.png" />
+    <None Remove="Resources\agents\agent_32.png" />
+    <None Remove="Resources\agents\agent_33.png" />
+    <None Remove="Resources\agents\agent_34.png" />
+    <None Remove="Resources\agents\agent_35.png" />
+    <None Remove="Resources\agents\agent_36.png" />
+    <None Remove="Resources\agents\agent_37.png" />
+    <None Remove="Resources\agents\agent_38.png" />
+    <None Remove="Resources\agents\agent_39.png" />
+    <None Remove="Resources\agents\agent_4.png" />
+    <None Remove="Resources\agents\agent_40.png" />
+    <None Remove="Resources\agents\agent_41.png" />
+    <None Remove="Resources\agents\agent_42.png" />
+    <None Remove="Resources\agents\agent_43.png" />
+    <None Remove="Resources\agents\agent_44.png" />
+    <None Remove="Resources\agents\agent_45.png" />
+    <None Remove="Resources\agents\agent_46.png" />
+    <None Remove="Resources\agents\agent_47.png" />
+    <None Remove="Resources\agents\agent_48.png" />
+    <None Remove="Resources\agents\agent_49.png" />
+    <None Remove="Resources\agents\agent_5.png" />
+    <None Remove="Resources\agents\agent_50.png" />
+    <None Remove="Resources\agents\agent_51.png" />
+    <None Remove="Resources\agents\agent_52.png" />
+    <None Remove="Resources\agents\agent_53.png" />
+    <None Remove="Resources\agents\agent_54.png" />
+    <None Remove="Resources\agents\agent_55.png" />
+    <None Remove="Resources\agents\agent_56.png" />
+    <None Remove="Resources\agents\agent_57.png" />
+    <None Remove="Resources\agents\agent_58.png" />
+    <None Remove="Resources\agents\agent_59.png" />
+    <None Remove="Resources\agents\agent_6.png" />
+    <None Remove="Resources\agents\agent_60.png" />
+    <None Remove="Resources\agents\agent_61.png" />
+    <None Remove="Resources\agents\agent_62.png" />
+    <None Remove="Resources\agents\agent_63.png" />
+    <None Remove="Resources\agents\agent_64.png" />
+    <None Remove="Resources\agents\agent_65.png" />
+    <None Remove="Resources\agents\agent_66.png" />
+    <None Remove="Resources\agents\agent_67.png" />
+    <None Remove="Resources\agents\agent_68.png" />
+    <None Remove="Resources\agents\agent_69.png" />
+    <None Remove="Resources\agents\agent_7.png" />
+    <None Remove="Resources\agents\agent_70.png" />
+    <None Remove="Resources\agents\agent_71.png" />
+    <None Remove="Resources\agents\agent_72.png" />
+    <None Remove="Resources\agents\agent_73.png" />
+    <None Remove="Resources\agents\agent_74.png" />
+    <None Remove="Resources\agents\agent_75.png" />
+    <None Remove="Resources\agents\agent_76.png" />
+    <None Remove="Resources\agents\agent_77.png" />
+    <None Remove="Resources\agents\agent_78.png" />
+    <None Remove="Resources\agents\agent_79.png" />
+    <None Remove="Resources\agents\agent_8.png" />
+    <None Remove="Resources\agents\agent_80.png" />
+    <None Remove="Resources\agents\agent_81.png" />
+    <None Remove="Resources\agents\agent_82.png" />
+    <None Remove="Resources\agents\agent_83.png" />
+    <None Remove="Resources\agents\agent_84.png" />
+    <None Remove="Resources\agents\agent_85.png" />
+    <None Remove="Resources\agents\agent_86.png" />
+    <None Remove="Resources\agents\agent_87.png" />
+    <None Remove="Resources\agents\agent_88.png" />
+    <None Remove="Resources\agents\agent_89.png" />
+    <None Remove="Resources\agents\agent_9.png" />
+    <None Remove="Resources\agents\agent_90.png" />
+    <None Remove="Resources\agents\agent_91.png" />
+    <None Remove="Resources\agents\agent_92.png" />
+    <None Remove="Resources\agents\agent_93.png" />
+    <None Remove="Resources\agents\agent_94.png" />
+    <None Remove="Resources\agents\agent_95.png" />
+    <None Remove="Resources\agents\agent_96.png" />
+    <None Remove="Resources\agents\agent_97.png" />
+    <None Remove="Resources\agents\agent_98.png" />
+    <None Remove="Resources\agents\agent_99.png" />
+    <None Remove="Resources\Eye-save.logo.ico" />
+    <None Remove="Resources\Eye-save.png" />
+    <None Remove="Resources\picture.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\Persistence\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\agents\agent_1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_10.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_101.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_102.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_103.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_104.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_105.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_106.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_107.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_108.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_109.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_11.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_110.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_111.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_112.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_113.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_114.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_115.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_116.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_117.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_118.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_119.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_12.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_120.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_121.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_122.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_123.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_124.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_125.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_126.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_127.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_128.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_129.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_13.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_130.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_14.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_15.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_16.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_17.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_18.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_19.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_20.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_21.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_22.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_23.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_24.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_25.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_26.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_27.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_28.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_29.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_30.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_31.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_32.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_33.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_34.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_35.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_36.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_37.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_38.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_39.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_40.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_41.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_42.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_43.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_44.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_45.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_46.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_47.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_48.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_49.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_50.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_51.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_52.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_53.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_54.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_55.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_56.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_57.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_58.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_59.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_60.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_61.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_62.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_63.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_64.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_65.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_66.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_67.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_68.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_69.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_7.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_70.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_71.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_72.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_73.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_74.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_75.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_76.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_77.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_78.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_79.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_8.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_80.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_81.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_82.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_83.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_84.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_85.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_86.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_87.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_88.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_89.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_9.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_90.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_91.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_92.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_93.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_94.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_95.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_96.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_97.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_98.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\agents\agent_99.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Eye-save.logo.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Eye-save.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\picture.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
